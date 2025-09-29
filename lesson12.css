@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    border: 1px solid rgb(5, 4, 4);
+    border-radius: 0px;
+    margin-top: 10px;
+    padding-right: 100px;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.try {
+    background-color: #00A962;
+    border-radius: 15px;
+    padding-top: 10px;
+    margin-top: -10px;
+    height: 30px;
+    width: 115px;
+    margin-left: 100px;
+    padding-left: 30px;
+}
+.h1{
+    padding-left: 10px;
+    padding-top: -30px;
+}
+.home {
+    display: flex;
+}
+.qoraal {
+    background-color: blue;
+    width: 50%;
+    height: 425px;
+    padding-left: 70px;
+    padding-top: 90px;
+}
+.qoraal button{
+background-color:#00CF5F;
+height: 30px;
+width: 120px;
+margin-top: 30px;
+}
+.qoraal h1{
+    color: white;
+    font-size: 25px;
+}
+.qoraal p{
+    color: aliceblue;
+    padding-top: 30px;
+    font-size: 20px;
+}
+.sawir img{
+    width: 700px;
+    height: 515px;
+}
