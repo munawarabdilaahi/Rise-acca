@@ -1,0 +1,129 @@
+.about {
+    background-color: rgb(50, 50, 229);
+    height: 50vh;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about h2 {
+    padding-top: 110px;
+
+}
+
+.met {
+
+    font-size: 26px;
+    animation-name: met;
+    animation-duration: 2s;
+
+}
+
+@keyframes met {
+    0% {
+        transform: translate(0px, -100px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+.met1 {
+    line-height: 25px;
+    margin-top: 10px;
+    font-size: 19px;
+}
+
+.met2 {
+    margin-left: 40px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sdd {
+    margin-top: 60px;
+    display: flex;
+    gap: 40px;
+    margin-left: 40px;
+}
+
+.sdd1:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.sdd1 img {
+    width: 250px;
+    height: 250px;
+}
+
+.sdd1 h2 {
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.sdd1 p {
+    font-size: 10px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.sdd6 {
+    display: flex;
+    gap: 40px;
+    margin-left: 40px;
+}
+
+.tel {
+    display: flex;
+    margin-left: 50px;
+    gap: 200px;
+}
+
+.tel2 img {
+    width: 590px;
+    height: 360px;
+    margin-right: 20px;
+    margin-top: 50px;
+    animation-name: tel2;
+    animation-duration: 3s;
+}
+
+@keyframes tel2 {
+    0% {
+        transform: translate(800px, 0px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes tel1 {
+    0% {
+        transform: translate(-500px, 0px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+.tel1 {
+    margin-top: 60px;
+    animation-name: tel1;
+    animation-duration: 3s;
+}
+
+.tel1 h3 {
+    font-size: 38px;
+    line-height: 55px;
+}
+
+.tel1 p {
+    line-height: 40px;
+    font-size: 18px;
+    margin-top: 30px;
+}

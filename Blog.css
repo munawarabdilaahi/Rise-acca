@@ -1,0 +1,40 @@
+.blog-section {
+    height: 200px;
+    background-color: rgb(206, 189, 155);
+    color: white;
+    text-align: start;
+    padding-left: 20px;
+}
+
+.blog-section h1 {
+    padding-top: 90px;
+    font-size: 40px;
+}
+
+.magac {
+    margin-top: 20px;
+    text-align: center;
+    color: blue;
+}
+
+.Doctors {
+    margin-top: 20px;
+    justify-content: space-evenly;
+    display: flex;
+    text-align: center;
+    /* gap: -10px; */
+}
+
+.Doctors2 img {
+    height: 300px;
+    width: 300px;
+}
+.item9 {
+    background-color: aquamarine;
+    margin-top: -5px;
+    height: 70px;
+}
+.item9 h1{
+    font-size: 20px;
+    padding-top: 20px;
+}

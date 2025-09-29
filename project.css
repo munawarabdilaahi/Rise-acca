@@ -1,0 +1,10 @@
+.project-section{
+    height: 300px;
+    background-color: rgb(6, 6, 11);
+    color: white;
+    text-align: center;
+}
+.project-section h1{
+    padding-top: 90px;
+    font-size: 40px;
+}
