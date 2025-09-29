@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    margin-left: 100px;
+}
+
+.box1 {
+    background-color: blue;
+    width: 200px;
+    height: 100px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.box2 {
+    background-color: blue;
+    width: 200px;
+    height: 100px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.box3 {
+    background-color: blue;
+    width: 200px;
+    height: 100px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.box4 {
+    background-color: blue;
+    width: 200px;
+    height: 100px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.hero-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.responsive-box1 {
+    background-color: rgb(14, 220, 235);
+    width: 200px;
+    height: 100px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.responsive-box2 {
+    background-color: rgb(14, 220, 235);
+    width: 200px;
+    height: 100px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.responsive-box3 {
+    background-color: rgb(14, 220, 235);
+    width: 200px;
+    height: 100px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.responsive-box4 {
+    background-color: rgb(14, 220, 235);
+    width: 200px;
+    height: 100px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.responsive-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
